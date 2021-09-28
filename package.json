@@ -1,0 +1,24 @@
+{
+  "name": "blockchain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "out/blockchain.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "jest --watchAll",
+    "test": "jest"
+  },
+  "author": "Paul Koeck",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/crypto-js": "^4.0.2",
+    "@types/jest": "^27.0.2",
+    "@types/node": "^16.10.1",
+    "jest": "^27.2.2",
+    "ts-jest": "^27.0.5",
+    "typescript": "^4.4.3"
+  },
+  "dependencies": {
+    "crypto-js": "^4.1.1"
+  }
+}
